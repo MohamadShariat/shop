@@ -7,9 +7,15 @@ body {
   margin: 0;
 }
 
+/* header */
+
 .container {
   width: 100%;
   padding: 0 60px;
+}
+
+.clearfix {
+  clear: both;
 }
 
 ul {
@@ -46,7 +52,7 @@ a {
 
 .header_nav li {
   display: inline-block;
-  padding: 24px 10px;
+  padding: 23px 10px;
   float: right;
 }
 
@@ -59,4 +65,61 @@ a {
   border-radius: 5px;
   cursor: pointer;
   outline: none;
+}
+
+/* page_intro */
+
+.page_intro {
+  width: 100%;
+  height: auto;
+  background: rgb(62, 223, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(62, 223, 236, 1) 0%,
+    rgba(31, 97, 168, 1) 100%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(0, 236, 255, 1) 100%
+  );
+  padding: 50px 0;
+}
+
+.page_intro_right {
+  width: 50%;
+  height: auto;
+  float: right;
+  text-align: right;
+}
+
+.page_intro_right h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.page_intro_right_btns {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.page_intro_right_btn {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  width: 120px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 8px;
+}
+
+.page_intro_left {
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+.page_intro_left img {
+  width: 100%;
+  height: auto;
 }
