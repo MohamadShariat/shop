@@ -1,6 +1,20 @@
+@font-face {
+  font-family: nazi;
+  font-weight: 200;
+  src: url(../assets/fonts/Nazanin.TTF);
+}
+
+@font-face {
+  font-family: nazi;
+  font-weight: 400;
+  src: url(../assets/fonts/Nazanin_Bold.TTF);
+}
+
 * {
   box-sizing: border-box;
   color: #333;
+  font-family: nazi;
+  font-weight: 200;
 }
 
 body {
@@ -94,6 +108,7 @@ a {
   color: #fff;
   font-size: 70px;
   margin-top: 80px;
+  font-weight: 400;
 }
 
 .page_intro_right_btns {
@@ -105,12 +120,13 @@ a {
   color: #fff;
   background: transparent;
   border: 2px solid #fff;
-  width: 120px;
+  width: 130px;
   font-size: 20px;
   padding: 10px;
   border-radius: 5px;
   float: right;
   margin-left: 8px;
+  cursor: pointer;
 }
 
 .page_intro_left {
