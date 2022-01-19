@@ -162,7 +162,48 @@ a {
 }
 
 .new_post_card {
-  background-color: burlywood;
   width: 100%;
-  height: 300px;
+  height: 335px;
+  box-shadow: 0px 2px 3px #bbb;
+}
+
+.new_post_pic {
+  width: 100%;
+  height: 250px;
+}
+
+.new_post_pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.new_post_body {
+  padding: 10px;
+}
+
+.new_post_title {
+  margin: 0;
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.new_post_price {
+  margin: 0;
+  float: left;
+  color: #777;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.new_post_description {
+  margin: 0;
+  float: right;
+  font-size: 16px;
+}
+
+.new_post_price_off {
+  margin: 0;
+  float: left;
+  font-size: 16px;
 }
