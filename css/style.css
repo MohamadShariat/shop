@@ -31,17 +31,15 @@ body {
   padding: 0 60px;
 }
 
-.header_icon{
+.header_icon {
   width: 12px;
   height: 12px;
-  background-size: cover;
+  background-size: cover !important;
   display: inline-block;
   vertical-align: -1px;
   margin-left: 2px;
   cursor: pointer;
-
 }
-
 
 .drop_down_icon {
   width: 8px;
@@ -53,7 +51,6 @@ body {
   margin-right: 2px;
   cursor: pointer;
 }
-
 
 .clearfix {
   clear: both;
@@ -114,13 +111,45 @@ a {
   margin-right: 30px;
 }
 
-.header_nav li {
+.header_nav > li {
   display: inline-block;
-  padding: 23px 10px;
+  padding: 20px 10px;
   float: right;
+  position: relative;
 }
 .header_nav li span {
   cursor: pointer;
+}
+
+.drop_down_menu {
+  position: absolute;
+  background-color: #fff;
+  width: 150px;
+  height: auto;
+  top: 100%;
+  right: 0;
+  box-shadow: 0px 2px 3px #777;
+}
+
+.drop_down .drop_down_menu {
+  display: none;
+}
+
+.drop_down:hover .drop_down_menu{
+  display: block;
+}
+
+.drop_down_menu li {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.drop_down_menu li a {
+  display: block;
+}
+
+.drop_down_menu :hover {
+  background-color: #eee;
 }
 
 .login_btn {
