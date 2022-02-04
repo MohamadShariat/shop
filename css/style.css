@@ -428,8 +428,6 @@ a {
   font-size: 16px;
 }
 
-
-
 .main_footer_card_namad img {
   width: 100px;
   height: 120px;
@@ -636,6 +634,55 @@ a {
 .single_comment_satisfaction {
   color: #00cc66;
   font-size: 22px;
+}
+
+/* contact_us */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact_inputs {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.contact_inputs label {
+  display: block;
+  margin-bottom: 5px;
+  color: #777;
+}
+
+.contact_inputs input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+.contact_message{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact_message label {
+  display: block;
+  margin-bottom: 5px;
+  color: #777;
+}
+
+.contact_message textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  min-height: 150px;
+
+
 }
 
 /* media query */
