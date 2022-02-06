@@ -691,7 +691,7 @@ a {
   min-height: 150px;
 }
 
-.contact_btn button{
+.contact_btn input {
   border: none;
   cursor: pointer;
   color: #fff;
@@ -699,13 +699,40 @@ a {
   padding: 8px 20px;
   border-radius: 3px;
   font-size: 18px;
-
 }
 
-.contact_us hr{
-border: 1px solid #ccc;
-margin: 30px 15px 0 15px;
+.contact_us hr {
+  border: 1px solid #ccc;
+  margin: 30px 15px;
+}
 
+.contact_info {
+  padding-bottom: 30px;
+}
+
+.contact_info h2 {
+  margin-bottom: 10px;
+}
+
+.contact_info_right {
+  width: 50%;
+  height: auto;
+}
+
+.contact_info_right address,
+p {
+  font-size: 20px;
+}
+
+.contact_info_left {
+  width: 50%;
+  height: auto;
+  padding: 0 100px;
+}
+
+.contact_info_left img {
+  width: 100%;
+  height: auto;
 }
 
 /* media query */
@@ -776,6 +803,10 @@ margin: 30px 15px 0 15px;
   .single_product_pic img {
     width: 400px;
   }
+
+  .contact_info_left {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -825,11 +856,22 @@ margin: 30px 15px 0 15px;
     font-size: 50px;
   }
 
-  .row{
+  .row {
     flex-direction: column;
   }
 
-  .contact_inputs{
+  .contact_inputs {
+    width: 100%;
+  }
+
+  .flex_column {
+    flex-direction: column-reverse;
+  }
+
+  .contact_info_right {
+    width: 100%;
+  }
+  .contact_info_left {
     width: 100%;
   }
 }
