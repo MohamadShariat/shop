@@ -928,12 +928,15 @@ p {
   width: 100%;
   height: auto;
   box-shadow: 0px 1px 3px #bbb;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cat_sidebar_boxes {
   margin: 0 15px;
   padding: 15px 0;
   border-bottom: 1px #ccc solid;
+  width: 100%;
 }
 
 .cat_sidebar_boxes:last-child{
@@ -1046,6 +1049,13 @@ p {
 
   .cat_col_post {
     width: 50%;
+  }
+
+  .cat_sidebar_boxes{
+    width: 50%;
+    margin: 0;
+    padding: 15px;
+    border-bottom: none;
   }
 }
 
